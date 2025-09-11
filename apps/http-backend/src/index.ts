@@ -16,10 +16,10 @@ app.post("/signup", (req,res) => {
             message: "Incorrect inputs"
         })
         return
-    }
+    };
     res.json({
         userId: 123
-    })
+    });
 
 });
 
